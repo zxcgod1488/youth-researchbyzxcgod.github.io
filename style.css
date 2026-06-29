@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Inter, system-ui, Arial;
+  background: #0b1220;
+  color: #e6edf3;
+  line-height: 1.6;
+}
+
+/* LAYOUT */
+.layout {
+  display: flex;
+  min-height: 100vh;
+}
+
+/* SIDEBAR */
+.sidebar {
+  width: 260px;
+  background: #0f172a;
+  padding: 24px;
+  position: fixed;
+  height: 100vh;
+  border-right: 1px solid #1f2937;
+}
+
+.logo {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 25px;
+  color: #60a5fa;
+}
+
+nav a {
+  display: block;
+  padding: 10px 12px;
+  margin: 6px 0;
+  text-decoration: none;
+  color: #94a3b8;
+  border-radius: 8px;
+  transition: 0.2s;
+}
+
+nav a:hover {
+  background: #1f2937;
+  color: #fff;
+}
+
+nav a.active {
+  background: #2563eb;
+  color: white;
+}
+
+/* CONTENT */
+.content {
+  margin-left: 260px;
+  padding: 50px;
+  max-width: 1000px;
+}
+
+/* TYPO */
+h1 {
+  font-size: 38px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  margin-top: 40px;
+  font-size: 22px;
+  color: #93c5fd;
+}
+
+p {
+  color: #cbd5e1;
+  margin: 10px 0;
+}
+
+/* CARDS */
+.card {
+  background: #0f172a;
+  border: 1px solid #1f2937;
+  padding: 18px;
+  border-radius: 14px;
+  margin: 15px 0;
+}
+
+/* KPI */
+.kpi {
+  background: #0f172a;
+  border: 1px solid #1f2937;
+  padding: 18px;
+  border-radius: 14px;
+}
+
+/* GRID */
+.grid {
+  display: grid;
+  gap: 15px;
+}
+
+/* FOOTER */
+.footer {
+  margin-top: 60px;
+  padding-top: 20px;
+  border-top: 1px solid #1f2937;
+  color: #64748b;
+}
+
+/* IMAGES */
+img {
+  width: 100%;
+  border-radius: 14px;
+  margin: 10px 0;
+}
+
+/* HERO */
+.hero {
+  background: #0f172a;
+  padding: 25px;
+  border-radius: 18px;
+  margin-bottom: 25px;
+}.muted {
+  color:#94a3b8;
+}
+
+
+.img-grid {
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:15px;
+}
+
+
+.grid-3 {
+  grid-template-columns:repeat(3,1fr);
+}
+
+
+.tag {
+  display:inline-block;
+  padding:4px 10px;
+  background:#1f2937;
+  border-radius:999px;
+  font-size:12px;
+}
+
+
+.big {
+  font-size:20px;
+}
+
+
+.highlight {
+  background:#0f172a;
+  padding:20px;
+  border-radius:14px;
+  border:1px solid #1e293b;
+}
